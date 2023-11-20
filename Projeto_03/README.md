@@ -1,0 +1,5 @@
+# Projeto 03 - Aprendizado Supervisionado - Classificação
+
+Neste projeto da Jornada Cientista de Dados foi proposto um problema de classificação de clientes para a previsão de churn, utilizando dados disponibilizados pelo curso (encontrados no Kaggle, mas adaptados para esse projeto). A ideia é entender o funcionamento de modelos de classificação na prática.
+
+Inicialmente, foi feita uyma analise exploratória para um melhor entendimento dos dados disponibilizados. Nesse caso, trata-se de dados desbalanceados, com 73% dos clientes 'não churn'. Foram feitas a separação de base e a codificação de váriaveis categoricas, e os dados faltantes foram inicialmente tratados para o teste de diferentes modelos de classificação. Após testar os modelos de Regressão Logistica, Random Forest e XGBoost, o melhor resultado obtido (utilizando como métrica o f1-score) foi o da Regressão Logística. PAra uma tentativa de melhora no modelo, foi feito um feature engineering, com a criação de novas variaveis categoricas e novas formas de input de dados faltantes, melhorando o desempenho da Regressão Logística aplicada.
